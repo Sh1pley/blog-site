@@ -12,7 +12,7 @@ paginate = 8
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Jesse Shipley"
-	description = "Software Developer, this is my journey."
+	description = "Software Developer"
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -26,7 +26,7 @@ paginate = 8
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "I'm **Jesse** ( ***Shipley*** ), <br> **Father**, <br> Programmer, <br> Nerd."
+		bio = "I'm **Jesse** Shipley. <br> Father, Programmer, and Nerd. <br> Located in the Greater Denver Area."
 		# The icons will be shown if you enter your username
 		twitter = "Sh1pley"
 		github = "Sh1pley"
@@ -57,40 +57,40 @@ paginate = 8
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.portfolio.gallery]]
-			image = "fulls/01.jpg"
-			thumb = "thumbs/01.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			link = "https://github.com/Sh1pley/weather-report"
+			thumb = "thumbs/weather.jpg"
+			title = "Weather Report"
+			description = "Simple weather reporting app. Built in React and Redux."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/02.jpg"
-			thumb = "thumbs/02.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			link = "https://github.com/Sh1pley/hot-links"
+			thumb = "thumbs/hotlinks.jpg"
+			title = "Hot-Links"
+			description = "React services app to consume my Rails API. Was done as a 2 part assessment for the final at [Turing](https://www.turing.io/)."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			link = "https://github.com/Sh1pley/bookchain-react"
+			thumb = "thumbs/bookchain.jpg"
+			title = "Bookchain"
+			description = "App built with Solidity & React. Experimenting with the blockchain."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			link = "https://github.com/Sh1pley/padcrash"
+			thumb = "thumbs/padcrash.jpg"
+			title = "Pad Crash"
+			description = "Cloned AirBnB with Rails, PostgreSQL, Twilio, Geocoder & Google Maps."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			link = "https://github.com/Sh1pley/quantified_self"
+			thumb = "thumbs/qself.jpg"
+			title = "Quantified Self"
+			description = "App built with Node, Express, Knex, & PostgreSQL."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/06.jpg"
-			thumb = "thumbs/06.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			link = "https://github.com/Sh1pley/Mastermind"
+			thumb = "thumbs/mastermind.jpg"
+			title = "Mastermind!"
+			description = "REPL game made in Ruby. Demonstrates Class inheritance, SRP, and OOP principles."
 
 	[params.recentposts]
 		hide  = false
