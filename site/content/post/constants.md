@@ -24,7 +24,7 @@ So between the two defiitions, we see some firm rules:
 - A constant's name begins with an uppercase character/or all uppercase characters.
 
 Through practice we can see it in action:
-![definining/calling a constant](/images/content/constant/Constant1.png)
+![definining/calling a constant](/images/content/constant/Constant1.jpg)
 Easy enough, can define your data in the constant and use namespacing to recall it. Nice.
 
 And then this '_should_' rule:
@@ -32,17 +32,17 @@ And then this '_should_' rule:
 - It should be assigned a value at most once..
 
 In practice:
-![altering a constant](/images/content/constant/Constant2.png)
+![altering a constant](/images/content/constant/Constant2.jpg)
 Warning: '.. previous version of constant was here..' Ok. You get a message and it still takes the change.
 Not constant anymore..
 
 Another thing:
-![How about a set of data, and Array](/images/content/constant/Constant3.png)
+![How about a set of data, and Array](/images/content/constant/Constant3.jpg)
 No warning message.. Altered the constant anyway. If done on purpose, great.
 On accident.. Not so great. Probably gonna get some awesome errors. Probably.
 
 More things:
-![.pop](/images/content/constant/Constant4.png)
+![.pop](/images/content/constant/Constant4.jpg)
 Pop/Shift/Unshift all the other things. Will do what you expect them to do.
 And the best part, no warnings. Ruby gives you the power, lets you get as weird as you want.
 
@@ -60,7 +60,7 @@ In comes Freeze:
 #### This method returns self.
 
 In practice: 
-![.freeze](/images/content/constant/Constant5.png)
+![.freeze](/images/content/constant/Constant5.jpg)
 This becomes my personal expected behavior. Allows you to define and call your constant set of date.
 And any of the weird stuff you want to try and do to said data, gives you a nice error that says nope.
 
