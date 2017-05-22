@@ -17,7 +17,7 @@ It's free, and pretty fun. He seems like a great teacher. Anyways, it does come 
 Drum Kit:
 ![Site](/images/content/drumkit/site.jpg)
 
-A html site that uses javascript to allow you to press keys listed on the site, hear sounds from files included in the directory and lastly use the include css to make the interaction with the listed keys light up an fade away.
+A html site that uses javascript to allow you to press keys listed on the site, hear sounds from files included in the directory and lastly use the included css to make the interaction with the listed keys light up and fade away.
 
 ---
 
