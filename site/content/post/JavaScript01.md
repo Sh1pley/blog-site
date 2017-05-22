@@ -1,11 +1,8 @@
 +++
-categories = [JavaScript]
-date = "2017-05-21T23:33:35-06:00"
-tags = [ES6, this, not-this, arrow function]
-title = "JavaScript01"
+date = "2017-05-22T00:21:26-06:00"
 draft = false
-description = " Let's do some JavaScript"
-
+title = "JavaScript01"
+description = "Let's do some JavaScript"
 +++
 
 # JavaScript30
