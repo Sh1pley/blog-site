@@ -3,6 +3,8 @@ categories = [JavaScript]
 date = "2017-05-21T23:33:35-06:00"
 tags = [ES6, this, not-this, arrow function]
 title = "JavaScript01"
+draft = false
+description = " Let's do some JavaScript"
 
 +++
 
