@@ -27,7 +27,7 @@ A html site that uses javascript to allow you to press keys listed on the site, 
 ##### *Starter files include html base and css files. In order to make it cool you do JavaScript.. fun!
 
 we start with this
-``` html
+{{< highlight html >}}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,8 +36,6 @@ we start with this
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-
   <div class="keys">
     <div data-key="65" class="key">
       <kbd>A</kbd>
@@ -89,12 +87,10 @@ we start with this
 
   <script>
   
-  </script>
-  
+  </script> 
 </body>
 </html>
-
-```
+{{< /highlight >}}
 
 Given my love for breaking things up I went ahead and broke the project into a separate file lets call it drum-kit.js.
 
