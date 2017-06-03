@@ -99,7 +99,7 @@ Given my love for breaking things up I went ahead and broke the project into a s
 ```
 We can include it like so.
 
-Next step is to use plain ol' JavaScript, no JQuery no lodash. Just JavaScript. Also I have a goal of writing as much ES6 as possible.. and understanding the changes it brings *especially with **this***.
+Next step is to use plain ol' JavaScript, no JQuery no lodash. Just JavaScript. Also I have a goal of writing as much ES6 as possible.. and understanding the changes it brings *especially with 'this'*.
 
 ``` javascript
 window.addEventListener('keydown', (event) => {
@@ -122,7 +122,9 @@ So far we have our window listening for us to press a button, let's make it a li
 
 This will check our pressed keys against our existing html, the return there will just end the function if there is not an audio found. If following along, go ahead and check functionality with and without [currentTime](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/currentTime) set to 0. Throwing this in before the .play() function saves us from a headache of not being able to play the same sound back to back. If for some reason the sound is still playing when we try and press it again, the browser makes us wait. So resetting that time allows us to interrupt the sound if we should press the same key repeatedly. And finally [.play](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play) Lets us play a media file. Nice! However JavaScript also goes ahead and wraps that into a Promise for us. It will automagically play it if found, or give us a decent error if not.. which allows us to handle that and give a nice output to our user. *We will save that for another lesson.*
 
-Finally because I like functions and making things readable we can change our drum-kit.js to something like this..
+Adding everything into a giant function is ok.. I mean it will work. But given that JavaScript is fairly flexible, it does allow you to use many Object Oriented Programming ( OOP ) principles to help make your code maintainable, and readable.
+
+Going down the Single Responsibility route we can change some of what we have to this:
 
 ``` javascript
 window.addEventListener('keydown', (event) => {
